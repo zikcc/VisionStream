@@ -1,0 +1,35 @@
+# 构建输出
+/build/
+/bin/
+/out/
+/CMakeFiles/
+/CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# 编译中间文件
+*.o
+*.obj
+*.lo
+*.a
+*.so
+*.dll
+*.dylib
+
+# 可执行文件
+*.exe
+*.out
+*.app
+
+# 编辑器生成的临时文件
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+
+# vscode
+.vscode/
+*.code-workspace
+
+thirdparty/
